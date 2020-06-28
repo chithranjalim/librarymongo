@@ -1,0 +1,61 @@
+.row
+{
+    text-align: center;
+   
+    
+}
+
+.box select, input[type="text"],.box input[type="file"], .box input[type="password"], .box input[type="email"], .box input[type="number"], .box input[type="date"],  .box textarea
+    {
+        border: 0;
+        background: white;
+        margin: 0px auto;
+        text-align: center;
+        border: 2px solid #9506f5;
+        padding: 4px 1px;
+        outline: none;
+        color: rgb(0, 0, 0);
+        border-radius: 24px;
+        transition: 0.25s;
+        width: 400px;
+        
+    }
+.box input[type="text"]:focus,.box input[type="password"]:focus, .box input[type="email"]:focus, .box input[type="number"]:focus, .box input[type="date"]:focus, .box input[type="radio"]:focus, .box textarea:focus
+    {
+        border-color: rgb(9, 243, 224);
+        
+    }
+    .box input[type="file"]:focus
+    {
+     
+        border: 2px solid #9506f5;   
+    }
+.box input[type="submit"]
+    {
+        border: 0;
+        background: blueviolet;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid greenyellow;
+        padding: 14px 10px;
+        width: 160px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+.box input[type="submit"]:hover
+    {
+        background-color: greenyellow;
+    }
+
+    
+   
+.btn-default
+    {
+        color: rgb(19, 204, 50);
+        border-color: rgb(19, 204, 50);
+    }
