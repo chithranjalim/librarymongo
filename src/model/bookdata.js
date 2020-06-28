@@ -7,7 +7,7 @@ const bookSchema = new Schema({
     genre: String,
     bookno : String ,
     image : String,
-    imageA :String
+    image :String
 
 });
 

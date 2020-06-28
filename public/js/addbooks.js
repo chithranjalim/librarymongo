@@ -6,7 +6,7 @@ let validate = function()
     var genre = document.getElementById('genre').value;
     var bookno = document.getElementById('bookno').value;
     var image = document.getElementById('image').value;
-    var image = document.getElementById('imageA').value;
+    var image = document.getElementById('image').value;
     
         if(title=="")
             {
@@ -51,11 +51,11 @@ let validate = function()
             return false;
 
             }
-            else if(imageA=="")
+            else if(image=="")
             {  
                 document.getElementById('4').innerHTML ="";
                 document.getElementById('image').innerHTML ="**please select image";
-                document.getElementById('imageA').style.border="2px solid red";
+                document.getElementById('image').style.border="2px solid red";
                
             return false;
             }

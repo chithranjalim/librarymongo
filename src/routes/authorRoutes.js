@@ -59,9 +59,9 @@ authorRouter.post('/update',function(req,res){
                                 var id=req.body.id;
                                 var title=req.body.title;
                                 var author=req.body.author;
-                                var imageA=req.body.imageA;
+                                var image=req.body.image;
                                     //bookdata.updateOne({_id:id},{$set:{title:title}});
-        bookdata.update({_id:id},{$set:{title:title,author:author,imageA:imageA}},
+        bookdata.update({_id:id},{$set:{title:title,author:author,image:image}},
                                     {new:true},function(err,update)
                                                            {
                                                            if(err) {
